@@ -9,4 +9,8 @@ router.get('/contact', (req, res) => {
   res.render('contact', { title: 'Contact Page' });
 });
 
+router.get('/login', (req, res) => {
+  res.render('login',{title: 'login'});
+});
+
 module.exports = router;
